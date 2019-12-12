@@ -1,0 +1,82 @@
+*,
+*:before, 
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 150px;
+  background-color: rgb(95, 67, 179);
+  border-bottom: 10px solid;
+  border-top: 10px solid;
+  border-color: rgb(57, 14, 184, .5);
+}
+
+.welcome-h1 {
+  padding-top: 20px;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.search-bar-input {
+  width: 40%;
+  height: 30%;
+  margin-left: 400px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-background {
+  background-image: url('./images/Space-Background.jpg');
+  background-size: cover;
+  background-position: auto 400px;
+}
+
+.orbit-container {
+  width: 400px;
+  height: fit-content;
+}
+
+.earth-image-div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 100px;
+  padding-top: 200px;
+  background-image: url('./images/earth-image.png');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+.moon-image-div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 300px;
+  padding-top: 200px;
+  background-image: url('./images/moon-image.png');
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  /* -webkit-animation: spin-right 15s linear infinite;
+  animation: spin-right 15s linear infinite; */
+}
+
+
+/* @-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  } */
